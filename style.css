@@ -1,0 +1,35 @@
+.container{
+    color: #000;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.data-head{
+    padding: 5px 0;
+}
+
+.data-column{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.data-row{
+    text-align: center;
+    border: 1px solid #9f9c9c;
+    padding: 5px;
+    width: 400px;
+}
+
+.button-div{
+    padding: 15px;
+}
+
+.button-div button{
+    cursor: pointer;
+    padding: 10px 30px;
+    border-radius: 10px;
+    outline: none;
+}
+
